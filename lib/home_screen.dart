@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.black,
-        title: Text(
+        title: const Text(
           "Bottom Navigation App",
           style: TextStyle(
             fontSize: 30,
@@ -33,11 +33,11 @@ class _HomeScreenState extends State<HomeScreen> {
           setState(() {});
         },
         backgroundColor: Colors.black,
-        selectedLabelStyle: TextStyle(color: Colors.white),
-        selectedIconTheme: IconThemeData(size: 40),
+        selectedLabelStyle: const TextStyle(color: Colors.white),
+        selectedIconTheme: const IconThemeData(size: 40),
         showSelectedLabels: true,
         selectedItemColor: Colors.pink.shade100,
-        items: [
+        items: const [
           BottomNavigationBarItem(
               icon: Icon(
                 Icons.home,

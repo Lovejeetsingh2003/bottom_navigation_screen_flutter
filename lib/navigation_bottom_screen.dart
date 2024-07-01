@@ -45,9 +45,9 @@ class _NavigationBottomScreenState extends State<NavigationBottomScreen> {
                     setState(() {});
                   },
                   child: Container(
-                    padding: EdgeInsets.fromLTRB(60, 10, 60, 10),
+                    padding: const EdgeInsets.fromLTRB(60, 10, 60, 10),
                     color: _currentIndex == 0 ? Colors.green : Colors.black,
-                    child: Column(
+                    child: const Column(
                       children: [
                         Icon(
                           Icons.home,
@@ -71,9 +71,9 @@ class _NavigationBottomScreenState extends State<NavigationBottomScreen> {
                     setState(() {});
                   },
                   child: Container(
-                    padding: EdgeInsets.fromLTRB(60, 10, 60, 10),
+                    padding: const EdgeInsets.fromLTRB(60, 10, 60, 10),
                     color: _currentIndex == 1 ? Colors.green : Colors.black,
-                    child: Column(
+                    child: const Column(
                       children: [
                         Icon(
                           Icons.search,
@@ -97,9 +97,9 @@ class _NavigationBottomScreenState extends State<NavigationBottomScreen> {
                     setState(() {});
                   },
                   child: Container(
-                    padding: EdgeInsets.fromLTRB(60, 10, 60, 10),
+                    padding: const EdgeInsets.fromLTRB(60, 10, 60, 10),
                     color: _currentIndex == 2 ? Colors.green : Colors.black,
-                    child: Column(
+                    child: const Column(
                       children: [
                         Icon(
                           Icons.bar_chart_rounded,
